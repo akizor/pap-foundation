@@ -1,0 +1,17 @@
+<layout>
+	<default>
+		<reference name="head">
+			<action method="addItem"><type>skin_js</type><name>js/modernizr.js</name><params/></action>
+		</reference>
+		<reference name="jsfooter">
+			<action method="addItem"><type>skin_js</type><name>js/jquery.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/foundation.min.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/jquery-noconflict.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/app.js</name><params/></action>
+		</reference>
+		
+		<!-- Remove demo block -->
+		<remove name="left.permanent.callout" />
+		<remove name="right.permanent.callout" />
+	</default>
+</layout>

@@ -46,16 +46,14 @@
 </head>
 
 <body>
-
+<div id="container" class="row">
 <?php echo $this->getChildHtml('after_body_start') ?>
-<div class="row">
     <?php echo $this->getChildHtml('global_notices') ?>
     <div class="">
         <?php echo $this->getChildHtml('header') ?>
         <div class="row">
             <?php echo $this->getChildHtml('breadcrumbs') ?>
             <div id="sidebar" class="medium-3 columns">
-            	<?php echo $this->getChildHtml('topMenu') ?>
 				<?php echo $this->getChildHtml('left') ?>
 			</div>
             <div id="main" class="medium-9 columns">
@@ -66,8 +64,8 @@
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>
     </div>
-</div>
 <?php echo $this->getAbsoluteFooter() ?>
 <?php echo $this->getChildHtml('jsfooter') ?>
+</div>
 </body>
 </html>

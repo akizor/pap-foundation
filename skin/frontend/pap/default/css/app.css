@@ -1,0 +1,12 @@
+body {
+	background: url('../images/bkg_body.gif') 0 0 repeat;
+}
+
+#container {
+	background-color: #fff;
+	padding: 10px;
+}
+
+#tags-panel {
+	margin-top: 20px;
+}

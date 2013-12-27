@@ -24,20 +24,22 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
-<div class="row collapse">
-	<h3><?php echo $this->__('Newsletter') ?></h3>
-	<div class="medium-9 columns">
-		<input type="text" name="email" id="newsletter" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" />
+<div class="panel">
+	<form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="newsletter-validate-detail">
+	<div class="row collapse">
+		<h3><?php echo $this->__('Newsletter') ?></h3>
+		<div class="medium-9 columns">
+			<input type="text" name="email" id="newsletter" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" />
+		</div>
+		<div class="medium-3 columns">
+			<span class="postfix">@</span>
+		</div>
+		<button class="button postfix" type="submit" title="<?php echo $this->__('Subscribe') ?>">
+			<?php echo $this->__('Subscribe') ?>
+		</button>
 	</div>
-	<div class="medium-3 columns">
-		<span class="postfix">@</span>
-	</div>
-	<button class="button postfix" type="submit" title="<?php echo $this->__('Subscribe') ?>">
-		<?php echo $this->__('Subscribe') ?>
-	</button>
+	</form>
 </div>
-</form>
 <script type="text/javascript">
 //<![CDATA[
 	var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');

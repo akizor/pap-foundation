@@ -31,14 +31,14 @@
  */
 ?>
 <div class="row">
-	<div class="medium-12 columns">
+	<div id="homepage-left-links" class="medium-12 columns">
 		<ul>
-			<li><a href="#">New Products</a></li>
-			<li><a href="#">Special Discount</a></li>
-			<li><a href="#">Best-selling Products</a></li>
+			<li><a href="#" class="button alert radius">New Products</a></li>
+			<li><a href="#" class="button alert radius">Special Discount</a></li>
+			<li><a href="#" class="button alert radius">Best-selling Products</a></li>
 		</ul>
 	</div>
-	<div class="medium-12 columns">
+	<div id="homepage-left-nav" class="medium-12 columns">
 		<?php $_helper = Mage::helper('catalog/category') ?>
 		<?php $_categories = $_helper->getStoreCategories() ?>
 		<?php $currentCategory = Mage::registry('current_category') ?>

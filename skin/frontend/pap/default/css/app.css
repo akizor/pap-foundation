@@ -10,3 +10,63 @@ body {
 #tags-panel {
 	margin-top: 20px;
 }
+
+#homepage-left-links ul ,
+#homepage-left-nav ul {
+	list-style-type: none;
+	margin-bottom: 0rem;
+	margin-left: 0rem;
+}
+
+#homepage-left-links a {
+	width: 100%;
+	margin: 0 0 0.2rem 0;
+}
+
+#homepage-left-nav ul li {
+	border-bottom: 0.1rem dashed #888;
+}
+
+#homepage-left-nav .accordion {
+	background-color: #efefef;
+	margin-top: 1rem;
+}
+#homepage-left-nav .accordion .content {
+	padding: 0rem;
+}
+#homepage-left-nav .accordion ul li {
+	padding-left: 1rem;
+}
+#homepage-left-nav .accordion .content.active {
+	background: #efefef;
+}
+
+#homepage-left-nav .accordion dd > a {
+	padding: 0.4rem;
+	border-bottom: 0.2rem solid #333;
+	background: #008cba;
+	color: #fff;
+}
+
+footer {
+	background-color: #333;
+	min-height: 100px;
+	padding: 10px;
+}
+
+.sub-nav dd {
+	font-size: 1rem;
+}
+
+footer .sub-nav dd a,
+footer p {
+	color: #fff;
+}
+
+footer #footer-copyright {
+	float: right;
+}
+
+footer #footer-copyright span {
+	color: #008cba;
+}
